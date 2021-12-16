@@ -1,0 +1,54 @@
+.login-logo {
+  background-color: #2aa3ef;
+  height: 100vh;
+  width: 50vw;
+  min-width: 650px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.login-logo .icon {
+  width: 6.5em;
+  height: 6.5em;
+  font-size: 6.5em;
+  color: #2796dd;
+  fill: currentColor;
+  overflow: hidden;
+  position: relative;
+  transform: rotate(-30deg);
+}
+
+.login {
+  position: absolute;
+  margin-left: 850px;
+  width: 300px;
+  height: 210px;
+  top: 130px;
+  padding: 30px 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.login .login-head {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.login .login-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.login .login-btn button {
+  display: block;
+  width: 50%;
+}
